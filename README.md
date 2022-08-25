@@ -6,21 +6,21 @@
 
 > 提醒： 滥用可能导致账户被BAN！！！  
 
-Heroku上部署v2ray，可更改传输协议vmess和vless，默认是vmess传输，部署时在v2ray protocol选项框改成你喜欢的协议即可．
+Heroku上部署ay，可更改传输协议ess和ess，默认是ess传输，部署时在ay protocol选项框改成你喜欢的协议即可．
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/yeahwu/kinto)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/smartalibaba/smartalibb)
 
 #### 部署服务端
 
-点击上面紫色`Deploy to Heroku`，会跳转到heroku app创建页面，填上app的名字，选择你喜欢的传输协议vmess或者vless，最后换上从 https://111111.online/getuuid.html 拷贝过来的UUID，点击下面deploy创建APP，完成后会生成一个链接，点击链接显示“Bad Request”就说明部署成功了！
+点击上面紫色`Deploy to Heroku`，会跳转到heroku app创建页面，填上app的名字，选择你喜欢的传输协议ess或者ess，最后换上从 https://111111.online/getuuid.html 拷贝过来的UUID，点击下面deploy创建APP，完成后会生成一个链接，点击链接显示“Bad Request”就说明部署成功了！
 
 需要记下的是appname,和你填入的UUID，下面就可以设置客户端翻墙了。
 
 #### 客户端设置
 
-注意和服务端协议保持一致，选择vmess或者vless，其它照图填写：
+注意和服务端协议保持一致，选择ess或者ess，其它照图填写：
 
-![v2ray](/img/kinto3.jpg)
+![ay](/img/kinto3.jpg)
 
 上图是443端口设置方法，当然你也可以设置80端口，不要打开tls就可以了，如下：
 
@@ -56,7 +56,7 @@ Heroku上部署v2ray，可更改传输协议vmess和vless，默认是vmess传输
   ],
   "outbounds": [
     {
-      "protocol": "vmess",  //此处选择vmess或者vless
+      "protocol": "vmess",  //此处选择ss或者ss
       "settings": {
         "vnext": [
           {
